@@ -31,6 +31,11 @@
 		8AC4999B232A18D2005A4B35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC49999232A18D2005A4B35 /* SceneDelegate.swift */; };
 		8AC4999C232A18D2005A4B35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC49999232A18D2005A4B35 /* SceneDelegate.swift */; };
 		93223A7F4DEC256BF49177A0 /* Pods_Video_Internal_Video_Community.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAD7F49B9C6F06A36CDD692 /* Pods_Video_Internal_Video_Community.framework */; };
+		C8DEF6EE2616193900F21A61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DEF6ED2616193900F21A61 /* GoogleService-Info.plist */; };
+		C8DEF6EF2616193900F21A61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DEF6ED2616193900F21A61 /* GoogleService-Info.plist */; };
+		C8DEF6F02616193900F21A61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DEF6ED2616193900F21A61 /* GoogleService-Info.plist */; };
+		C8DEF6F12616193900F21A61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DEF6ED2616193900F21A61 /* GoogleService-Info.plist */; };
+		C8DEF6F22616193900F21A61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DEF6ED2616193900F21A61 /* GoogleService-Info.plist */; };
 		DC044685238EF6C20072F597 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC044683238EF6C20072F597 /* Environment.swift */; };
 		DC044686238EF6C20072F597 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC044683238EF6C20072F597 /* Environment.swift */; };
 		DC044692238F1E3C0072F597 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC044690238F1E3C0072F597 /* UserStore.swift */; };
@@ -478,6 +483,7 @@
 		A10066E39687E61F986470C1 /* Pods_Video_Twilio_Video_TwilioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_Twilio_Video_TwilioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75F43370842DD4A8718485D /* Pods-Video-InternalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video-InternalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Video-InternalUITests/Pods-Video-InternalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E48E3694ED13BADF86A97C /* Pods-Video-InternalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video-InternalUITests.release.xcconfig"; path = "Target Support Files/Pods-Video-InternalUITests/Pods-Video-InternalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8DEF6ED2616193900F21A61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CF3A673FFFA1998DACFEFE3C /* Pods_Video_Internal_Video_InternalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_Internal_Video_InternalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90DE0A39F48B889AB2E6C96 /* Pods-Video-Internal-Video-InternalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video-Internal-Video-InternalTests.debug.xcconfig"; path = "Target Support Files/Pods-Video-Internal-Video-InternalTests/Pods-Video-Internal-Video-InternalTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC04467B238DD55C0072F597 /* AuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTests.swift; sourceTree = "<group>"; };
@@ -798,6 +804,7 @@
 				241282461E36A6AB002198BE /* Assets.xcassets */,
 				24C5217720FFAD030018E2D8 /* Bridging-Header.h */,
 				2412824B1E36A6AB002198BE /* Info.plist */,
+				C8DEF6ED2616193900F21A61 /* GoogleService-Info.plist */,
 				24480A451EF07716003BCF00 /* Video.entitlements */,
 			);
 			path = VideoApp;
@@ -1746,12 +1753,12 @@
 				ORGANIZATIONNAME = "Twilio, Inc.";
 				TargetAttributes = {
 					4B0012221FBA52C4004A587E = {
-						DevelopmentTeam = SX5J6BN2KX;
+						DevelopmentTeam = 5366TUAMLW;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					4B00125F1FBA52E5004A587E = {
-						DevelopmentTeam = SX5J6BN2KX;
+						DevelopmentTeam = 5366TUAMLW;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
@@ -1805,6 +1812,7 @@
 				DCAEBF342383560500141D2D /* EditTextCell.xib in Resources */,
 				DC44C2C623870D0800205174 /* BasicCell.xib in Resources */,
 				4B0012441FBA52C4004A587E /* Assets.xcassets in Resources */,
+				C8DEF6EE2616193900F21A61 /* GoogleService-Info.plist in Resources */,
 				DC9A5E122460CE9800E4B079 /* ParticipantCell.xib in Resources */,
 				DC44C2BE238704FB00205174 /* RightDetailCell.xib in Resources */,
 				DC9A5DFD245CB66800E4B079 /* VideoView.xib in Resources */,
@@ -1826,6 +1834,7 @@
 				4B0012811FBA52E5004A587E /* Assets.xcassets in Resources */,
 				DC44C2BF238704FB00205174 /* RightDetailCell.xib in Resources */,
 				DC9A5E132460CE9800E4B079 /* ParticipantCell.xib in Resources */,
+				C8DEF6EF2616193900F21A61 /* GoogleService-Info.plist in Resources */,
 				4B0012831FBA52E5004A587E /* Main.storyboard in Resources */,
 				DCAEBF19238331A800141D2D /* SwitchCell.xib in Resources */,
 			);
@@ -1836,6 +1845,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5CC39F249C0F5900355CC6 /* TestSecrets.json in Resources */,
+				C8DEF6F22616193900F21A61 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1843,6 +1853,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8DEF6F02616193900F21A61 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1850,6 +1861,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8DEF6F12616193900F21A61 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2844,7 +2856,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 76;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = 5366TUAMLW;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -2880,7 +2892,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 76;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = 5366TUAMLW;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = VideoApp/Info.plist;
@@ -2912,7 +2924,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 76;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = 5366TUAMLW;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -2926,7 +2938,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.video-app-community";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.video-app-community-sg-test";
 				PRODUCT_MODULE_NAME = VideoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2948,7 +2960,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 76;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = 5366TUAMLW;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = VideoApp/Info.plist;
@@ -2959,7 +2971,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.video-app-community";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.video-app-community-sg-test";
 				PRODUCT_MODULE_NAME = VideoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -15,6 +15,7 @@
 // 
 
 import UIKit
+import Firebase
 
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var launchFlow: LaunchFlow?
@@ -28,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
+        FirebaseApp.configure()
         launchStoresFactory.makeLaunchStores().forEach { $0.start() }
 
         if #available(iOS 13, *) {
