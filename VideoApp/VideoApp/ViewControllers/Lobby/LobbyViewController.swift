@@ -140,7 +140,7 @@ class LobbyViewController: UIViewController {
     private func resetRoom() {
         room = roomFactory.makeRoom()
         participant.isMicOn = true
-        participant.isCameraOn = true
+        participant.isCameraOn = false
     }
     
     @objc private func handleSettingChange() {
